@@ -66,6 +66,7 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.recovery.hardware.rc \
     init.recovery.qcom.rc \
+    logcat.rc \
     miui.factoryreset.rc \
     ueventd.rc
 
