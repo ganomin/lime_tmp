@@ -65,6 +65,7 @@ PRODUCT_PACKAGES += \
     init.qti.ufs.rc \
     init.stnfc.rc \
     init.target.rc \
+    logcat.rc \
     ueventd.rc \
     init.recovery.hardware.rc \
     init.recovery.qcom.rc \
