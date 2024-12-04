@@ -54,19 +54,21 @@ PRODUCT_PACKAGES += \
     install-recovery.sh \
     qca6234-service.sh \
     setwlansarhigh.sh \
-    setwlansarlow.sh \
+    setwlansarlow.sh
 
 PRODUCT_PACKAGES += \
     fstab.default \
+    fstab.emmc \
     init.qcom.factory.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.qti.ufs.rc \
     init.stnfc.rc \
     init.target.rc \
+    ueventd.rc \
     init.recovery.hardware.rc \
     init.recovery.qcom.rc \
-    miui.factoryreset.rc \
+    miui.factoryreset.rc
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.default:$(TARGET_COPY_OUT_RAMDISK)/fstab.default

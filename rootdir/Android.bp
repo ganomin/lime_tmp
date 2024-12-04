@@ -192,3 +192,10 @@ prebuilt_etc {
     src: "etc/fstab.default",
     vendor: true,
 }
+
+prebuilt_etc {
+    name: "fstab.emmc",
+    src: "etc/fstab.emmc",
+    vendor: true,
+}
+
