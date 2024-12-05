@@ -1553,7 +1553,6 @@ vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 
 # Media configs
-odm/etc/media_profiles_V1_0.xml
 vendor/etc/media_codecs.xml
 vendor/etc/media_codecs_google_audio.xml
 vendor/etc/media_codecs_google_c2.xml
@@ -2546,9 +2545,6 @@ vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so
 vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
 
 # Miscellaneous
-odm/etc/build_lemon.prop
-odm/etc/build_lime.prop
-odm/etc/build_pomelo.prop
 vendor/app/CACertService/CACertService.apk
 vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk
 vendor/app/MipayService/MipayService.apk
