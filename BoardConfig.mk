@@ -96,7 +96,10 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX := 1
 BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 
 # VINTF
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/vintf/manifest.xml
+ODM_MANIFEST_FILES := $(DEVICE_PATH)/vintf/manifest_lemon.xml
+ODM_MANIFEST_FILES += $(DEVICE_PATH)/vintf/manifest_lime.xml
+ODM_MANIFEST_FILES += $(DEVICE_PATH)/vintf/manifest_pomelo.xml
 
 # Inherit the proprietary files
 include vendor/xiaomi/lime/BoardConfigVendor.mk
