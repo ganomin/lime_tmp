@@ -79,7 +79,8 @@ PRODUCT_COPY_FILES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/xiaomi
 
 # VINTF
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
