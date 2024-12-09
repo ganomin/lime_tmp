@@ -1740,7 +1740,6 @@ vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so
 vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so
 
 # QESD
-system_ext/etc/vintf/manifest/vendor.qti.qesdsys.service.xml
 system_ext/lib/vendor.qti.qesdhal@1.0.so
 system_ext/lib/vendor.qti.qesdhal@1.1.so
 system_ext/lib64/vendor.qti.qesdhal@1.0.so
