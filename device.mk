@@ -72,8 +72,7 @@ PRODUCT_PACKAGES += \
     logcat.rc \
     ueventd.rc \
     init.recovery.hardware.rc \
-    init.recovery.qcom.rc \
-    miui.factoryreset.rc
+    init.recovery.qcom.rc
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.default:$(TARGET_COPY_OUT_RAMDISK)/fstab.default
