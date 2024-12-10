@@ -35,8 +35,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CONFIG := lime_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/lime
+TARGET_KERNEL_CONFIG := vendor/lime-perf_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6115
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
