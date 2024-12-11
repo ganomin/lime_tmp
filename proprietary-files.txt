@@ -2543,9 +2543,6 @@ vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so
 vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
 
 # Miscellaneous
-odm/etc/build_lemon.prop
-odm/etc/build_lime.prop
-odm/etc/build_pomelo.prop
 vendor/app/CACertService/CACertService.apk
 vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk
 vendor/app/MipayService/MipayService.apk
@@ -3113,10 +3110,4 @@ vendor/odm/etc/permissions/sku_lemon/android.hardware.se.omapi.uicc.xml
 vendor/odm/etc/vintf/manifest_lemon.xml
 vendor/odm/etc/vintf/manifest_lime.xml
 vendor/odm/etc/vintf/manifest_pomelo.xml
-vendor/odm/etc/build_lemon.prop
-vendor/odm/etc/build_lime.prop
-vendor/odm/etc/build_pomelo.prop
 vendor/odm/etc/media_profiles_V1_0.xml
-vendor/build_lemon.prop
-vendor/build_lime.prop
-vendor/build_pomelo.prop
