@@ -1553,7 +1553,6 @@ vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 
 # Media configs
-odm/etc/media_profiles_V1_0.xml
 vendor/etc/media_codecs.xml
 vendor/etc/media_codecs_google_audio.xml
 vendor/etc/media_codecs_google_c2.xml
@@ -3102,12 +3101,3 @@ vendor/lib64/vendor.xiaomi.hardware.misys@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@3.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@4.0.so
-vendor/odm/etc/permissions/sku_lemon/android.hardware.nfc.hce.xml
-vendor/odm/etc/permissions/sku_lemon/android.hardware.nfc.hcef.xml
-vendor/odm/etc/permissions/sku_lemon/android.hardware.nfc.uicc.xml
-vendor/odm/etc/permissions/sku_lemon/android.hardware.nfc.xml
-vendor/odm/etc/permissions/sku_lemon/android.hardware.se.omapi.uicc.xml
-vendor/odm/etc/vintf/manifest_lemon.xml
-vendor/odm/etc/vintf/manifest_lime.xml
-vendor/odm/etc/vintf/manifest_pomelo.xml
-vendor/odm/etc/media_profiles_V1_0.xml
