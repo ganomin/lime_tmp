@@ -71,7 +71,6 @@ PRODUCT_PACKAGES += \
     init.recovery.hardware.rc \
     init.recovery.qcom.rc \
     logcat.rc \
-    miui.factoryreset.rc \
     ueventd.rc
 
 PRODUCT_COPY_FILES += \
