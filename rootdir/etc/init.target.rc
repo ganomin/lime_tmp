@@ -263,13 +263,6 @@ service displayfeature /system/bin/displayfeature
     group system root
     oneshot
 
-service displayfeatureqservice /vendor/bin/hw/displayfeatureqservice
-    class hal
-    user system
-    interface vendor.xiaomi.hardware.displayfeatureqservice@1.0::IDisplayFeatureQservice default
-    group system root
-    oneshot
-
 # add PcbaConfigSet by tanrong
 service PcbaConfigSet /system/vendor/bin/PcbaConfigSet
     class core

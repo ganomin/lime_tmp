@@ -2548,7 +2548,6 @@ vendor/app/MipayService/MipayService.apk
 vendor/app/QCC-TR-UI/QCC-TR-UI.apk
 vendor/app/SensorTestTool/SensorTestTool.apk
 vendor/bin/hw/capabilityconfigstoretest
-vendor/bin/hw/displayfeatureqservice
 vendor/bin/hw/vendor.silead.hardware.fingerprintext@1.0-service
 vendor/bin/hw/vendor.xiaomi.hardware.misys@1.0-service
 vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service
@@ -2651,7 +2650,6 @@ vendor/etc/focal/Conf_MultipleTest_FT8720M-01.ini
 vendor/etc/focal/focaltech_mp_fw_huaxing.ini
 vendor/etc/init/boringssl_self_test.rc
 vendor/etc/init/ddr_training.rc
-vendor/etc/init/displayfeatureqservice.rc
 vendor/etc/init/ffu.rc
 vendor/etc/init/hostapd.android.rc
 vendor/etc/init/init.embmssl_server.rc
@@ -3096,7 +3094,6 @@ vendor/lib64/libwms.so
 vendor/lib64/libwqe.so
 vendor/lib64/libxml2_vendor.so
 vendor/lib64/vendor.silead.hardware.fingerprintext@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.displayfeatureqservice@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@3.0.so
