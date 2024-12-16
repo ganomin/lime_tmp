@@ -1,4 +1,4 @@
-<compatibility-matrix version="2.0" type="framework" target-level="4">
+<compatibility-matrix version="2.0" type="framework" target-level="5">
     <hal format="hidl" optional="true">
         <name>android.hardware.atrace</name>
         <version>1.0</version>
