@@ -26,4 +26,3 @@ ro.opa.eligible_device=true
 ro.product.marketname=Redmi 9T
 ro.product.product.marketname=Redmi 9T
 ro.setupwizard.rotation_locked=true
-setupwizard.theme=glif_v3_light
