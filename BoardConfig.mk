@@ -19,6 +19,9 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a9
 
+# A/B
+AB_OTA_UPDATER := false
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := lemon,lime,pomelo
 
