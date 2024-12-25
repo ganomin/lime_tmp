@@ -87,6 +87,9 @@ TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 BOARD_PRODUCTIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_SYSTEM_EXTIMAGE_FILE_SYSTEM_TYPE := ext4
 
+# Partitions - reserved size
+-include vendor/lineage/config/BoardConfigReservedSize.mk
+
 # Platform
 TARGET_BOARD_PLATFORM := bengal
 
