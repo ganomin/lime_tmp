@@ -82,8 +82,5 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi
 
-# VINTF
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/lime/lime-vendor.mk)
