@@ -690,11 +690,11 @@ vendor/etc/init/vendor.qti.cdsprpc-service.rc
 vendor/lib/libcdsp_default_listener.so
 vendor/lib/libcdsprpc.so
 vendor/lib/libfastcvdsp_stub.so
-vendor/lib/libfastcvopt.so
+-vendor/lib/libfastcvopt.so
 vendor/lib64/libcdsp_default_listener.so
 vendor/lib64/libcdsprpc.so
 vendor/lib64/libfastcvdsp_stub.so
-vendor/lib64/libfastcvopt.so
+-vendor/lib64/libfastcvopt.so
 
 # CNE
 system_ext/lib/com.quicinc.cne.api@1.0.so
@@ -2329,8 +2329,8 @@ system_ext/lib64/vendor.qti.hardware.limits@1.0.so
 system_ext/lib64/vendor.qti.hardware.limits@1.1.so
 vendor/bin/thermal-engine
 vendor/etc/init/init_thermal-engine.rc
-vendor/lib/libthermalclient.so
-vendor/lib64/libthermalclient.so
+-vendor/lib/libthermalclient.so
+-vendor/lib64/libthermalclient.so
 
 # Thermal (Xiaomi)
 vendor/bin/mi_thermald
