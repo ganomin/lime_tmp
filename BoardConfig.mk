@@ -103,6 +103,9 @@ TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 
+# Qualcomm
+BOARD_USES_QCOM_HARDWARE := true
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.default
 BOARD_INCLUDE_RECOVERY_DTBO := true
