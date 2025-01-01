@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # SPDX-FileCopyrightText: 2016 The CyanogenMod Project
-# SPDX-FileCopyrightText: 2017-2024 The LineageOS Project
+# SPDX-FileCopyrightText: 2017-2025 The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -20,8 +20,8 @@ fi
 
 set -e
 
-export DEVICE=alioth
-export DEVICE_COMMON=sm8250-common
+export DEVICE=lime
+export DEVICE_COMMON=sm6115-common
 export VENDOR=xiaomi
 export VENDOR_COMMON=${VENDOR}
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # SPDX-FileCopyrightText: 2016 The CyanogenMod Project
-# SPDX-FileCopyrightText: 2017-2024 The LineageOS Project
+# SPDX-FileCopyrightText: 2017-2025 The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -21,9 +21,9 @@ function blob_fixup() {
 LEGACY_MIFARE_READER=1
 EOF
             ;;
-        vendor/lib/hw/audio.primary.alioth.so)
+        vendor/lib/hw/audio.primary.bengal.so)
             [ "$2" = "" ] && return 0
-            sed -i "s|/vendor/lib/liba2dpoffload\.so|liba2dpoffload_alioth\.so\x00\x00\x00\x00\x00|g" "${2}"
+            sed -i "s|/vendor/lib/liba2dpoffload\.so|liba2dpoffload_lime\.so\x00\x00\x00\x00\x00|g" "${2}"
             ;;
         vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so)
             [ "$2" = "" ] && return 0
@@ -57,8 +57,8 @@ fi
 
 set -e
 
-export DEVICE=alioth
-export DEVICE_COMMON=sm8250-common
+export DEVICE=lime
+export DEVICE_COMMON=sm6115-common
 export VENDOR=xiaomi
 export VENDOR_COMMON=${VENDOR}
 
