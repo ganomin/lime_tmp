@@ -12,9 +12,6 @@ DEVICE_PATH := device/xiaomi/lime
 # Board
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
-# Display
-TARGET_SCREEN_DENSITY := 440
-
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_lime
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_lime
